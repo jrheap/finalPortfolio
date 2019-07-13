@@ -1,0 +1,1 @@
+MoatBSJsonpRequest_48644456({"c": ["moat_safe"], "d": 5, "g": 0.034132957458496094, "pcode": "quantcastv2691176990399", "r": 20706312327, "ct": 0})
