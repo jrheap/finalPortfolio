@@ -1,32 +1,0 @@
-
-var ftGUID_3667049="392793635A1251";
-var ftConfID_3667049="0";
-var ftParams_3667049="ftx=&fty=&ftadz=&ftscw=&ft_custom=5GRcYOMcKBL7E1Nn7whebpQWRxSSHSl74xRSYu8RWBPhHVwVujQZDw==&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.w3schools.com%2Fcssref%2Ftryit.asp%3Ffilename%3Dtrycss3_opacity&ft_keyword=__13330890__498434__&ft_section=__13330890__498434____37651068593440851922575277506318306917&cachebuster=985931.8075274441&gdpr=0&gdpr_consent=";
-var ftKeyword_3667049="";
-var ftCustom_3667049="5GRcYOMcKBL7E1Nn7whebpQWRxSSHSl74xRSYu8RWBPhHVwVujQZDw==";
-var ftSection_3667049="__13330890__498434____37651068593440851922575277506318306917";
-var ftSegment_3667049="um2,u3y,q4i,n7h,tg0,tm2,tg1,u1b,uyo,uxd,uxf,uyp,uy7,u1l,uy4,u1c,uvw,uxi,uxg,uxn,w2c,u1i,u0x,u00,u01,uxh,xtx,o5d,x4m,v6k,w4w1,yo5,yta,x2o";
-var ftSegmentList_3667049=[{s:'um2'},{s:'u3y'},{s:'q4i'},{s:'n7h'},{s:'tg0'},{s:'tm2'},{s:'tg1'},{s:'u1b'},{s:'uyo'},{s:'uxd'},{s:'uxf'},{s:'uyp'},{s:'uy7'},{s:'u1l'},{s:'uy4'},{s:'u1c'},{s:'uvw'},{s:'uxi'},{s:'uxg'},{s:'uxn'},{s:'w2c'},{s:'u1i'},{s:'u0x'},{s:'u00'},{s:'u01'},{s:'uxh'},{s:'xtx'},{s:'o5d'},{s:'x4m'},{s:'v6k'},{m:'ToySeq',s:'w4w1'},{s:'yo5'},{s:'yta'},{m:'c12345_Resi_RTG_SUB_NONSUB',s:'x2o'}];
-var ftRuleMatch_3667049="0";
-var ftTimestamp_3667049="1562817037";
-var ftGeoC2_3667049="us";
-var ftGeoState_3667049="ut";
-var ftGeoCity_3667049="salt lake city";
-var ftISP_3667049="university of utah";
-var ftSpeed_3667049="broadband";
-var ftDMA_3667049="770";
-var ftLong_3667049="-111.879";
-var ftLat_3667049="40.7535";
-var ftPostal_3667049="84111";
-var ftTimeZone_3667049="-600";
-var ftMobileCarrier_3667049="";
-var ftImp3667049 = {};
-ftImp3667049.privacy = "x";
-ftImp3667049.guidAge = "282";
-ftImp3667049.impID = "B3F6D615-8F56-E610-8225-FDE364E5E1BE";
-ftImp3667049.duid = "FT:392793635A1251";
-
-ftImp3667049.ft_tpplid = "";
-ftImp3667049.ft_c = {};
-
-document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/366/3667049/2560316/js/j-3667049-2560316.js" id="ftscript_m3667049" name="ftscript_m3667049"></scr'+'ipt>');
