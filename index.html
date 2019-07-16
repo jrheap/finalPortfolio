@@ -10,6 +10,7 @@
         href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Kalam:300|Open+Sans|Shadows+Into+Light&display=swap"
         rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
@@ -74,22 +75,39 @@
     <div id="aboutPage" class="parallax-container">
         <nav class="grey darken-4" style="opacity: 0.6;">
             <div class="nav-wrapper">
+                <a href="#" class="sidenav-trigger" data-target="mobile-links" >
+                    <i class="material-icons">menu</i>
+                </a>
                 <a href="#aboutPage" class="brand-logo center" style="font-size: 50px; color: rgb(42, 177, 18)">About
                     Me</a>
+                    <div id="rightNav">
                 <ul class="right hide-on-med-and-down">
-                    <li id="rightNav"><a style="font-size: 25px; color: rgb(42, 177, 18)"
+                    <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)"
                             href="#projectPage">Projects</a></li>
-                    <li id="rightNav"><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#contactPage">Contact
+                    <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#contactPage">Contact
                         </a></li>
                 </ul>
+            </div>
+            <div id="leftNav" >
                 <ul class="left hide-on-med-and-down">
-                    <li id="leftNav"><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#resumePage">Resume</a>
+                    <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#resumePage">Resume</a>
                     </li>
-                    <li id="leftNav"><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#topPage">Top</a>
+                    <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#topPage">Top</a>
                     </li>
                 </ul>
             </div>
+        </div>
         </nav>
+        <ul class="sidenav" id="mobile-links" style="background-image: url(./images/black.jpg)">
+                <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#resumePage">Resume</a>
+                </li>
+                <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#topPage">Top</a>
+                </li>
+                <li id="rightNav"><a style="font-size: 25px; color: rgb(42, 177, 18)"
+                    href="#projectPage">Projects</a></li>
+            <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#contactPage">Contact
+                </a></li>
+        </ul>
         <div class="parallax"><img src="images/black.jpg">
 
         </div>
@@ -120,24 +138,41 @@
         </div>
     </div>
     <div id="projectPage" class="parallax-container">
-        <nav class="grey darken-4" style="opacity: 0.6;">
-            <div class="nav-wrapper">
-                <a href="#projectPage" class="brand-logo center"
-                    style="font-size: 50px; color: rgb(42, 177, 18)">Projects</a>
-                <ul class="right hide-on-med-and-down">
-                    <li id="rightNav"><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#aboutPage">About
-                            me</a></li>
-                    <li id="rightNav"><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#contactPage">Contact
+            <nav class="grey darken-4" style="opacity: 0.6;">
+                    <div class="nav-wrapper">
+                        <a href="#" class="sidenav-trigger" data-target="mobile-links" >
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <a href="#projectPage" class="brand-logo center" style="font-size: 50px; color: rgb(42, 177, 18)">
+                            Projects</a>
+                            <div id="rightNav">
+                        <ul class="right hide-on-med-and-down">
+                            <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)"
+                                    href="#aboutPage">About Me</a></li>
+                            <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#contactPage">Contact
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div id="leftNav" >
+                        <ul class="left hide-on-med-and-down">
+                            <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#resumePage">Resume</a>
+                            </li>
+                            <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#topPage">Top</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </nav>
+                <ul class="sidenav" id="mobile-links" style="background-image: url(./images/black.jpg)">
+                        <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#resumePage">Resume</a>
+                        </li>
+                        <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#topPage">Top</a>
+                        </li>
+                        <li id="rightNav"><a style="font-size: 25px; color: rgb(42, 177, 18)"
+                            href="#projectPage">Projects</a></li>
+                    <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#contactPage">Contact
                         </a></li>
                 </ul>
-                <ul class="left hide-on-med-and-down">
-                    <li id="leftNav"><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#resumePage">Resume</a>
-                    </li>
-                    <li id="leftNav"><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#topPage">Top</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
         <div class="parallax"><img src="images/black.jpg"></div>
         <div class="row" id="topRow ">
             <div class="col m3">
@@ -260,24 +295,41 @@
         </div>
     </div>
     <div id="resumePage" class="parallax-container">
-        <nav class="grey darken-4" style="opacity: 0.6;">
-            <div class="nav-wrapper">
-                <a href="#resumePage" class="brand-logo center"
-                    style="font-size: 50px; color: rgb(42, 177, 18)">Resume</a>
-                <ul class="right hide-on-med-and-down">
-                    <li id="rightNav"><a style="font-size: 25px; color: rgb(42, 177, 18)"
+            <nav class="grey darken-4" style="opacity: 0.6;">
+                    <div class="nav-wrapper">
+                        <a href="#" class="sidenav-trigger" data-target="mobile-links" >
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <a href="#resumePage" class="brand-logo center" style="font-size: 50px; color: rgb(42, 177, 18)">Resume
+                            </a>
+                            <div id="rightNav">
+                        <ul class="right hide-on-med-and-down">
+                            <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)"
+                                    href="#projectPage">Projects</a></li>
+                            <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#contactPage">Contact
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div id="leftNav" >
+                        <ul class="left hide-on-med-and-down">
+                            <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#aboutPage">About Me</a>
+                            </li>
+                            <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#topPage">Top</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </nav>
+                <ul class="sidenav" id="mobile-links" style="background-image: url(./images/black.jpg)">
+                        <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#resumePage">Resume</a>
+                        </li>
+                        <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#topPage">Top</a>
+                        </li>
+                        <li id="rightNav"><a style="font-size: 25px; color: rgb(42, 177, 18)"
                             href="#projectPage">Projects</a></li>
-                    <li id="rightNav"><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#contactPage">Contact
+                    <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#contactPage">Contact
                         </a></li>
                 </ul>
-                <ul class="left hide-on-med-and-down">
-                    <li id="leftNav"><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#aboutPage">About
-                            Me</a></li>
-                    <li id="leftNav"><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#topPage">Top</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
         <div class="parallax"><img src="images/black.jpg"></div>
         <div class="container">
             <embed id="resume" src="./images/Jason Heap Resume1.pdf" type="application/pdf" width="100%" height="600px">
@@ -293,23 +345,41 @@
     </div>
 
     <div id="contactPage" class="parallax-container">
-        <nav class="grey darken-4" style="opacity: 0.5;">
-            <div class="nav-wrapper">
-                <a href="#contactPage" class="brand-logo center"
-                    style="font-size: 50px; color: rgb(42, 177, 18)">Contact</a>
-                <ul class="right hide-on-med-and-down">
-                    <li id="rightNav"><a style="font-size: 25px; color: rgb(42, 177, 18);"
+            <nav class="grey darken-4" style="opacity: 0.6;">
+                    <div class="nav-wrapper">
+                        <a href="#" class="sidenav-trigger" data-target="mobile-links" >
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <a href="#contactPage" class="brand-logo center" style="font-size: 50px; color: rgb(42, 177, 18)">Contact
+                            </a>
+                            <div id="rightNav">
+                        <ul class="right hide-on-med-and-down">
+                            <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)"
+                                    href="#projectPage">Projects</a></li>
+                            <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#aboutPage">About Me
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div id="leftNav" >
+                        <ul class="left hide-on-med-and-down">
+                            <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#resumePage">Resume</a>
+                            </li>
+                            <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#topPage">Top</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </nav>
+                <ul class="sidenav" id="mobile-links" style="background-image: url(./images/black.jpg)">
+                        <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#resumePage">Resume</a>
+                        </li>
+                        <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#topPage">Top</a>
+                        </li>
+                        <li id="rightNav"><a style="font-size: 25px; color: rgb(42, 177, 18)"
                             href="#projectPage">Projects</a></li>
-                    <li id="rightNav"><a style="font-size: 25px; color: rgb(42, 177, 18);" href="#topPage">Top</a></li>
+                    <li id=""><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#contactPage">Contact
+                        </a></li>
                 </ul>
-                <ul class="left hide-on-med-and-down">
-                    <li id="leftNav"><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#resumePage">Resume</a>
-                    </li>
-                    <li id="leftNav"><a style="font-size: 25px; color: rgb(42, 177, 18)" href="#aboutPage">About me</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
         <div class="parallax"><img src="images/black.jpg"></div>
         <div id="contact" class="container">
             <div class="row">
