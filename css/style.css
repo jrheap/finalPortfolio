@@ -26,14 +26,14 @@ name {
 }
 h1 {
   font-family: "Nothing You Could Do", cursive;
-  color: rgb(42, 177, 18);
-  text-shadow: 2px 2px 5px rgb(42, 177, 18);
+  color: whitesmoke;
+  text-shadow: 2px 2px 5px whitesmoke;
   margin-top: 20%;
   margin-left: 25%;
 }
 p {
-  color: rgb(42, 177, 18);
-  text-shadow: 2px 2px 5px rgb(42, 177, 18);
+  color: whitesmoke;
+  text-shadow: 2px 2px 5px whitesmoke;
   margin-left: 40%;
   margin-top: -38px;
 }
@@ -47,7 +47,7 @@ p {
 
 h2 {
   font-family: "Shadows Into Light", cursive;
-  color: rgb(42, 177, 18);
+  color: whitesmoke;
 }
 
 .ml15 .word {
@@ -75,8 +75,8 @@ h2 {
   text-shadow: 0;
   width: 50px;
   height: 50px;
-  border-bottom: 2px solid rgb(42, 177, 18);
-  border-right: 2px solid rgb(42, 177, 18);
+  border-bottom: 2px solid whitesmoke;
+  border-right: 2px solid whitesmoke;
   z-index: 9;
   left: 48%;
   -webkit-transform: translate(-50%, 0%) rotate(45deg);
@@ -150,11 +150,11 @@ margin-right: 20%;
 nav{
   font-family: 'Kalam', cursive;
   font-weight: lighter;
-  color: rgb(42, 177, 18);
+  color: whitesmoke;
   
 }
 .center{
- color: rgb(42, 177, 18)
+ color: whitesmoke
 }
 
 
