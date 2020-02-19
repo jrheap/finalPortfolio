@@ -6,14 +6,14 @@ $(document).ready(function(){
 $("a.scroll-down").on('click', function (e) {
 e.preventDefault();
 $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500)
-console.log('testin')
+// console.log('testin')
     });
 
     $("a[href^='#aboutPage']").click(function(e) {
       e.preventDefault();
       
       var position = $($(this).attr("href")).offset().top;
-    console.log(position)
+    // console.log(position)
       $("body, html").animate({
         scrollTop: position
       } /* speed */ );
