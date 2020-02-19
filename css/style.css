@@ -8,19 +8,18 @@ body {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px;
-  /* height: 1800px; */
+ 
+
   width: 100%;
   height: 100%;
-  max-height: 100%;
+  
   margin: 0;
   padding: 0;
   /* background-image: url('../images/imageTest.jpg'); */
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
-imageOne {
-}
+
 name {
   font-size: 90px;
 }
@@ -157,7 +156,9 @@ nav{
  color: whitesmoke
 }
 
-
+.row{
+  overflow: hidden;
+}
 .aboutMe{
   margin-top: 130px;
 }
@@ -191,3 +192,11 @@ nav{
   font-size: 25px;
   line-height: 30px;
 }
+
+
+@media only screen and (min-width: 600){
+  .center{
+    color: black;
+  }
+}
+
